@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B94ADFA1DF8FC6A0003A330 /* WordTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B94ADF81DF8FC6A0003A330 /* WordTree.cpp */; };
+		4B94ADFD1DF8FC760003A330 /* WordNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B94ADFB1DF8FC760003A330 /* WordNode.cpp */; };
 		4BD048901DF68EE50023EA71 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4BD0488F1DF68EE50023EA71 /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +25,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4B94ADF81DF8FC6A0003A330 /* WordTree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WordTree.cpp; sourceTree = "<group>"; };
+		4B94ADF91DF8FC6A0003A330 /* WordTree.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = WordTree.hpp; sourceTree = "<group>"; };
+		4B94ADFB1DF8FC760003A330 /* WordNode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WordNode.cpp; sourceTree = "<group>"; };
+		4B94ADFC1DF8FC760003A330 /* WordNode.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = WordNode.hpp; sourceTree = "<group>"; };
 		4BD0488C1DF68EE50023EA71 /* Assignment 6 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Assignment 6"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BD0488F1DF68EE50023EA71 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				4BD0488F1DF68EE50023EA71 /* main.cpp */,
+				4B94ADFB1DF8FC760003A330 /* WordNode.cpp */,
+				4B94ADFC1DF8FC760003A330 /* WordNode.hpp */,
+				4B94ADF81DF8FC6A0003A330 /* WordTree.cpp */,
+				4B94ADF91DF8FC6A0003A330 /* WordTree.hpp */,
 			);
 			path = "Assignment 6";
 			sourceTree = "<group>";
@@ -88,7 +98,7 @@
 		4BD048841DF68EE50023EA71 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0810;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Axel Garcia";
 				TargetAttributes = {
 					4BD0488B1DF68EE50023EA71 = {
@@ -119,7 +129,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B94ADFD1DF8FC760003A330 /* WordNode.cpp in Sources */,
 				4BD048901DF68EE50023EA71 /* main.cpp in Sources */,
+				4B94ADFA1DF8FC6A0003A330 /* WordTree.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,6 +156,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -191,6 +204,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -246,6 +260,7 @@
 				4BD048951DF68EE50023EA71 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
